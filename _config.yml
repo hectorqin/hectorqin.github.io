@@ -72,3 +72,8 @@ deploy:
   repository: git@github.com:hectorqin/hectorqin.github.io.git
   branch: master
 
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000
