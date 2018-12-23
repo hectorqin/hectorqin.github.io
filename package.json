@@ -19,5 +19,9 @@
     "hexo-renderer-stylus": "^0.3.1",
     "hexo-server": "^0.2.2",
     "fsevents": "^1.2.3"
+  },
+  "devDependencies": {
+    "uglify-js": ">=2.6.0",
+    "ejs": ">=2.5.5"
   }
 }
