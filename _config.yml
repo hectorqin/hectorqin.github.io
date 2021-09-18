@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hector's blog
+title: Hector的个人博客
 subtitle: You deserves better
 description: Both on the way ...
-author: hector.qin
-language: zh-Hans
+author: hectorqin
+language: zh-CN
 timezone:
 
 # URL
