@@ -71,6 +71,10 @@ deploy:
   type: git
   repository: git@github.com:hectorqin/hectorqin.github.io.git
   branch: master
+  ignore_hidden: false
+
+include:
+  - .nojekyll
 
 search:
   path: search.xml
