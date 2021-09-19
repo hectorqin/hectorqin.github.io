@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+Allow: /archives/
+
+Disallow: /js/
+Disallow: /css/
+Disallow: /images/
+Disallow: /lib/
+Disallow: /uploads/
+
+Sitemap: https://www.htmake.com/sitemap.xml
+Sitemap: https://www.htmake.com/baidusitemap.xml

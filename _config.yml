@@ -5,7 +5,7 @@
 # Site
 title: Hector的个人博客
 subtitle: You deserves better
-description: Both on the way ...
+description: 身体和灵魂总要有一个在路上
 keywords: ["全栈开发", "技术总结", "programmer"]
 author: hectorqin
 language: zh-CN
@@ -85,3 +85,8 @@ search:
   field: post
   format: html
   limit: 10000
+
+sitemap:
+  path: sitemap.xml
+baidusitemap:
+  path: baidusitemap.xml
