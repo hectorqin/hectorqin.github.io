@@ -252,7 +252,7 @@ post_meta:
 symbols_count_time:
   separated_meta: true
   item_text_post: true
-  item_text_total: false
+  item_text_total: true
 
 # Use icon instead of the symbol # to indicate the tag at the bottom of the post
 tag_icon: false
@@ -639,14 +639,14 @@ gitalk:
   enable: true
   github_id: hectorqin # GitHub repo owner
   repo: hectorqin.github.io # Repository name to store issues
-  client_id: FIX ME # GitHub Application Client ID
-  client_secret: FIX ME # GitHub Application Client Secret
+  client_id: 4a525a3e6080f72be543 # GitHub Application Client ID
+  client_secret: 5d597d256d726aec5a2ec4ebeddeadd67d9d7fe8 # GitHub Application Client Secret
   admin_user: ['hectorqin'] # GitHub repo owner and collaborators, only these guys can initialize gitHub issues
   distraction_free_mode: true # Facebook-like distraction free mode
   # Gitalk's display language depends on user's browser or system environment
   # If you want everyone visiting your site to see a uniform language, you can set a force language value
   # Available values: en | es-ES | fr | ru | zh-CN | zh-TW
-  language:
+  language: zh-CN
 
 
 # ---------------------------------------------------------------
@@ -685,7 +685,7 @@ baidu_analytics: 58c211c64273148cee27946fd2b1ab78
 growingio_analytics: # <project_id>
 
 # CNZZ count
-cnzz_siteid:
+cnzz_siteid: 1280343529
 
 # Show number of visitors of each article.
 # You can visit https://leancloud.cn to get AppID and AppKey.
@@ -714,7 +714,7 @@ firestore:
 # Show Views / Visitors of the website / page with busuanzi.
 # Get more information on http://ibruce.info/2015/04/04/busuanzi
 busuanzi_count:
-  enable: false
+  enable: true
   total_visitors: true
   total_visitors_icon: fa fa-user
   total_views: true
